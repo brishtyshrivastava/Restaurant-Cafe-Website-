@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserve a Table</title>
+</head>
+<body>
+    <h2>Table Reservation</h2>
+    <form action="/submit_reservation" method="POST">
+        <label>Name:</label>
+        <input type="text" name="name" required><br>
+        <br>
+        <label>Email:</label>
+        <input type="email" name="email" required><br>
+        <br>
+        <label>Phone:</label>
+        <input type="text" name="phone" required><br>
+        <br>
+        <label>Date:</label>
+        <input type="date" name="reservation_date" required><br>
+        <br>
+        <label>Time:</label>
+        <input type="time" name="reservation_time" required><br>
+        <br>
+        <label>Guests:</label>
+        <select name="guests" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select><br>
+        <br>
+        <img src="c:\Users\brish\Downloads\RESERVED.jpg" alt="reserved"><br>
+        <br>
+        <button type="submit">Reserve Table</button>
+    </form>
+</body>
+</html>
